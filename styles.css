@@ -1,3 +1,7 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -31,7 +35,6 @@ a {
     background: azure;
     width: 100vw;;
     height: 9vh;
-    font-family: 'Lato', sans-serif;
     font-style: normal;
     align-items: center;
     color: #6b8897;;
@@ -106,5 +109,38 @@ a {
     height: 440px;
     margin: 0px;
     padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "box1 box2"
+                            "box3 box3";
 }
 
+.footer-links li {
+    list-style-type: none;
+    font-size: 12px;
+    font-size: 13px;
+    color:white;
+    line-height: 3rem;
+}
+
+.footer-link-heading {
+    font-size: 1.5rem;
+    color:white;
+}
+
+.right-top-footer {
+    grid-area: box1;
+}
+
+.left-top-footer {
+    grid-area: box2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
+
+.bottom-footer {
+    grid-area: box3;
+}
