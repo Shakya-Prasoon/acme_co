@@ -4,22 +4,23 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 9vh;
     width: 100vw;
-}
-
-.navbar ul li {
-    display: inline;
-    list-style-type: none;
-    padding:20px
 }
 
 a {
     text-decoration: none;
-    color: #6D7278;
+    color: #6b8897;;
     font-size: 12px;
 }
 
+#navigation-login-bttn {
+    color: #32c5ff;
+    border: 2px solid #32c5ff;
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 0px rgb(255 255 255 / 24%);
+    padding: 14px 32px;
+}
 .navigation-section {
     display: flex;
     flex-direction: row;
@@ -28,21 +29,33 @@ a {
     left: 0;
     background: azure;
     width: 100vw;;
-    height: 80px;
+    height: 9vh;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    line-height: 48px;
     text-align: center;
-    color: #6D7278;
+    color: #6b8897;;
 }
 
-.heading-name {
-    line-height: 80px;
-    padding-left: 20px;
+.heading-name h1{
+    line-height: 60px;
+    padding-left: 4vw;
     font-size: 18px;
-    width: 40vw;
+    width: 33vw;
     text-align: left;
+    font-weight: bold;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding:20px
+}
+
+.navbar ul {
+    width: 58vw;
+    height:48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .body-section {
