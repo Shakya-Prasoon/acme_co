@@ -33,12 +33,11 @@ a {
     height: 9vh;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    text-align: center;
+    align-items: center;
     color: #6b8897;;
 }
 
 .heading-name h1{
-    line-height: 60px;
     padding-left: 4vw;
     font-size: 18px;
     width: 33vw;
@@ -48,12 +47,12 @@ a {
 
 .navbar ul li {
     list-style-type: none;
-    padding:20px
+    padding:20px;
+    font-size: 12px;
 }
 
 .navbar ul {
     width: 58vw;
-    height:48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
