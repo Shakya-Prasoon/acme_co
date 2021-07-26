@@ -121,6 +121,7 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-left: 100px;
+    cursor:grab;
 }
 
 .body1-right {
@@ -202,6 +203,7 @@ a {
     margin-left:100px;
     width: 248px;
     height: 44px;
+    cursor:grab;
 }
 /* BODY SECTION 3 */
 .body-3 {
@@ -278,10 +280,67 @@ a {
 /* BODY SECTION 4 */
 .body-4 {
     background-color: rgb(29, 28, 28);
+    background-image:url(/assets/code-background.png);
+    background-size: cover;
+    /* filter: contrast(80%); */
     width: 100vw;
     height: 440px;
     margin: 0px;
     padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.body4-l h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top:80px;
+}
+
+.body4-l button {
+    background: linear-gradient(180deg, #313539 0%, #000000 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.24), inset 0px 2px 0px rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    width:224px;
+    height: 48px;
+    margin-top:50px;
+}
+
+.body4-p1 {
+    width: 344px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.body4-p2 {
+    width: 344px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+
+.body4-r img {
+    padding:50px;
+    width: 25vw;
+    height: 35vh;
 }
 
 
