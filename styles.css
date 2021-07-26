@@ -92,7 +92,6 @@ a {
     line-height: 43px;
     color: #FFFFFF;
     padding:100px 0px 0px 100px;
-    margin: 0px;
 }
 
 .body1-span p {
@@ -132,7 +131,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "body1l-img body1r-img";
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .body1l-img {
@@ -152,16 +151,71 @@ a {
     margin: 0px;
     padding: 0px;background-image: url(/assets/triangle-background.png);
     background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "body2-left body2-right";
 }
 
+.body2-left {
+    grid-area: body2-left;
+}
+
+.body2-right {
+    grid-area: body2-right;
+}
+
+.body2-span {
+    width:344px;
+    height:144px;
+}
+
+.body2-span h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #787D84;
+    padding:100px 0px 0px 100px;
+}
+
+.body2-span p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #787D84;
+    padding:0px 0px 40px 100px;
+    width: 344px;
+}
+
+.body2-span button {
+    background: linear-gradient(180deg, #FFFFFF 0%, #D8D8D8 113.83%);
+    border: 1px solid #0091FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.24), inset 0px 2px 0px #FFFFFF;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0091FF;
+    text-shadow: 0px 1px 0px #FFFFFF;
+    margin-left:100px;
+    width: 248px;
+    height: 44px;
+}
+/* BODY SECTION 3 */
 .body-3 {
     background: linear-gradient(180deg, rgba(50, 197, 255, 0.12) 0%, #FFFFFF 100%);
     width: 100vw;
     height: 440px;
     margin: 0px;
     padding: 0px;
+    background-color: #D8D8D8;
 }
 
+/* BODY SECTION 4 */
 .body-4 {
     background-color: rgb(29, 28, 28);
     width: 100vw;
