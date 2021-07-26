@@ -148,7 +148,7 @@ a {
     height: 440px;
     margin: 0px;
     padding: 0px;
-    background-image: url(`assets/triangle-background.png);
+    background-image: url(assets/triangle-background.png);
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
