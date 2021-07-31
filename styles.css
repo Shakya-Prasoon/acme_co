@@ -128,11 +128,11 @@ a {
 
 .body1-right {
     grid-area: body1-right;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "body1l-img body1r-img";
+    display:flex;
+    justify-content:center;
     padding-top: 150px;
     width:50vw;
+
 }
 
 .body1l-img {
@@ -153,9 +153,11 @@ a {
     padding: 0px;
     background-image: url("assets/triangle-background.png");
     background-size: cover;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "body2-left body2-right";
+    grid-template-areas: "body2-left body2-right"; */
+    display: flex;
+    align-items: center;
 }
 
 .body2-left {
@@ -164,7 +166,9 @@ a {
 }
 
 .body2-left img{
-    width: 100%;
+    height: 440px;
+    width: 40vh;
+    object-fit: cover;
 }
 
 .body2-right {
