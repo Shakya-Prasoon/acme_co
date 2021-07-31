@@ -65,6 +65,7 @@ a {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    width:100vw;
 }
 
 .body-1 {
@@ -80,6 +81,7 @@ a {
 
 .body1-left {
     grid-area: body1-left;
+    width:50vw;
 }
 
 .body1-span h2 {
@@ -130,6 +132,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "body1l-img body1r-img";
     padding-top: 150px;
+    width:50vw;
 }
 
 .body1l-img {
@@ -157,10 +160,16 @@ a {
 
 .body2-left {
     grid-area: body2-left;
+    width: 50vw;
+}
+
+.body2-left img{
+    width: 100%;
 }
 
 .body2-right {
     grid-area: body2-right;
+    width: 50vw;
 }
 
 .body2-span {
@@ -339,8 +348,8 @@ a {
 
 .body4-r img {
     padding:50px;
-    width: 25vw;
-    height: 35vh;
+    width: 80%;
+    height: 70%;
 }
 
 
